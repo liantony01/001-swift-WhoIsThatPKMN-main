@@ -67,7 +67,7 @@
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qOi-Q7-GAw"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TOV-ir-KyV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O95-M6-Fow">
@@ -78,6 +78,9 @@
                                                 <state key="normal" title="Staravia">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20F-hC-QKb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8P-Tu-ouw">
                                                 <rect key="frame" x="0.0" y="116" width="350" height="38"/>
@@ -87,6 +90,9 @@
                                                 <state key="normal" title="Carvanha">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsc-kx-9du"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7F-7Q-PUE">
                                                 <rect key="frame" x="0.0" y="174" width="350" height="38"/>
@@ -96,6 +102,9 @@
                                                 <state key="normal" title="Pikachu">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fze-3e-2lL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -119,7 +128,7 @@
                     <connections>
                         <outlet property="labelMessage" destination="zwc-BK-jXE" id="bxy-ss-n3K"/>
                         <outlet property="pokemonImage" destination="KuH-Tb-DHX" id="lPb-fe-2P1"/>
-                        <outlet property="scoleLabel" destination="mXW-d2-WIl" id="R0w-oe-L2r"/>
+                        <outlet property="scoreLabel" destination="mXW-d2-WIl" id="kKT-X6-E0k"/>
                         <outletCollection property="answersButtons" destination="YPE-G3-QOR" collectionClass="NSMutableArray" id="AUh-Ag-Lxh"/>
                         <outletCollection property="answersButtons" destination="O95-M6-Fow" collectionClass="NSMutableArray" id="BmP-Kh-pet"/>
                         <outletCollection property="answersButtons" destination="s8P-Tu-ouw" collectionClass="NSMutableArray" id="NbL-ZX-lep"/>
