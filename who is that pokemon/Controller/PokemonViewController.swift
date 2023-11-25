@@ -14,12 +14,13 @@ class PokemonViewController: UIViewController {
     @IBOutlet weak var labelMessage: UILabel!
     @IBOutlet var answersButtons: [UIButton]!
     
+    lazy var pokemonManager = PokemonManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         scoreLabel.text = " Puntaje: 100"
-        
+        pokemonManager.fetchPokemon()
         createButtons()
               
     }
@@ -39,4 +40,18 @@ class PokemonViewController: UIViewController {
             
         }
     }
+}
+
+extension PokemonViewController: PokemonManagerDelegate{
+    
+    func didUpdatePokemon(pokemons: [PokemonModel]) {
+        <#code#>
+    }
+    
+    func didFail(error: Error) {
+        print(error)
+    }
+    
+    
+    
 }
